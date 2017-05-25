@@ -1,0 +1,26 @@
+{
+  "name": "sda-cloud",
+  "version": "1.0.0",
+  "description": "Ejeplo de aplicación desplegada en Azure/AWS",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Azrrael-exe/sda-cloud.git"
+  },
+  "author": "vcamargo.e@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Azrrael-exe/sda-cloud/issues"
+  },
+  "homepage": "https://github.com/Azrrael-exe/sda-cloud#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "morgan": "^1.8.1",
+    "mongoose": "^4.9.6"
+  }
+}
